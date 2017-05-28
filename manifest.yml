@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: complaint
+  host: complaint
+  disk_quota: 1024M
+  services:
+  - complaintbox7
+  - complainttwilio
+  - Monitoring and Analytics-43
+  buildpack: php_buildpack
